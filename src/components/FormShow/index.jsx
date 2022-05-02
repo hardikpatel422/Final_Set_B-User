@@ -1,9 +1,9 @@
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
-import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import React, {  } from "react";
 import { useHistory } from "react-router-dom";
-import { AddUser,DeleteUser } from "../../actions/UserAction";
+import { DeleteUser } from "../../action/UserAction";
+
 
 
 
@@ -70,7 +70,7 @@ export default function FormList() {
                     >
                       Delete
                     </button>
-                   
+                    
                   </td>
                 </tr>
               ))}

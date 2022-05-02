@@ -1,5 +1,6 @@
 const initialstate = {
-    users: []
+    users: [
+  ]
  }
 
  export const UserReducer = (state = initialstate, action) => {
